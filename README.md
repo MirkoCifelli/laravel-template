@@ -13,5 +13,13 @@ Passi da fare per poter utilizzare il template di Laravel
 
 Al posto di npm run build, potreste eseguire npm run dev e lasciarlo attivo
 
-
 6 Aprire un altro terminale ed eseguire il comando php artisan serve
+
+---
+
+Create un model Movie preso come esempio model Iniziale maiscusolo singolare db with s 
+php artisan make:model Movie
+
+Create un controller che gestirà la rotta /
+php artisan make:controller Guest/PageController
+con dentro una funzione index()
